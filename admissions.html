@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admissions - Celeste Academy of Excellence</title>
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <div class="d-flex align-items-center">
+                    <div class="logo-circle">
+                        <img src="assets/images/logo.png" alt="Celeste Academy Logo" class="logo-img">
+                    </div>
+                    <div>
+                        <span class="fw-bold">Celeste Academy</span>
+                        <small class="d-block text-accent">Of Excellence</small>
+                    </div>
+                </div>
+            </a>
+            
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="programs.html">Programs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="admissions.html">Admissions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item ms-2">
+                        <a href="#apply" class="btn btn-accent">Apply Now</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="badge bg-accent text-white px-3 py-2 rounded-pill mb-3">
+                        <i class="bi bi-calendar-check me-2"></i>Registration Now Open
+                    </div>
+                    <h1 class="display-4 fw-bold mb-4">
+                        Join Our <span class="text-gradient">Academic Family</span>
+                    </h1>
+                    <p class="lead text-muted mb-4">
+                        Begin your child's journey towards excellence. Our admissions process is simple, 
+                        transparent, and designed to welcome students who will thrive in our nurturing 
+                        environment from Grade R to Grade 12.
+                    </p>
+                    <div class="d-flex flex-wrap gap-3">
+                        <a href="#fees" class="btn btn-accent btn-lg px-4 py-3">
+                            View Fees
+                        </a>
+                        <a href="#process" class="btn btn-outline-primary btn-lg px-4 py-3">
+                            Admission Process
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6 mt-5 mt-lg-0">
+                    <img src="assets/images/logo.png" 
+                         alt="Admissions" class="img-fluid rounded-xl shadow-lg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Fees Section -->
+    <section id="fees" class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-5 fw-bold mb-3">Admission Fees</h2>
+                <p class="lead text-muted col-lg-8 mx-auto">
+                    Transparent and affordable fee structure
+                </p>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="card border-accent">
+                        <div class="card-header bg-accent text-white py-4">
+                            <h3 class="fw-bold mb-0 text-center">2024 Fee Structure</h3>
+                        </div>
+                        <div class="card-body p-0">
+                            <div class="table-responsive">
+                                <table class="table table-hover mb-0">
+                                    <thead class="bg-light">
+                                        <tr>
+                                            <th class="py-3 px-4">Fee Type</th>
+                                            <th class="py-3 px-4">Amount</th>
+                                            <th class="py-3 px-4">Payment Terms</th>
+                                            <th class="py-3 px-4">Notes</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td class="py-3 px-4 fw-bold">Registration Fee</td>
+                                            <td class="py-3 px-4">
+                                                <span class="text-accent fw-bold">R750.00</span>
+                                            </td>
+                                            <td class="py-3 px-4">Once-off, non-refundable</td>
+                                            <td class="py-3 px-4">Payable upon application</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="py-3 px-4 fw-bold">Monthly Tuition</td>
+                                            <td class="py-3 px-4">
+                                                <span class="text-accent fw-bold">R1,200.00</span>
+                                            </td>
+                                            <td class="py-3 px-4">Monthly, in advance</td>
+                                            <td class="py-3 px-4">Includes all learning materials</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="py-3 px-4 fw-bold">Sibling Discount</td>
+                                            <td class="py-3 px-4">
+                                                <span class="text-success fw-bold">10% off</span>
+                                            </td>
+                                            <td class="py-3 px-4">Second child onward</td>
+                                            <td class="py-3 px-4">Applied to tuition fee</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="py-3 px-4 fw-bold">Payment Plans</td>
+                                            <td class="py-3 px-4">
+                                                <span class="text-primary fw-bold">Available</span>
+                                            </td>
+                                            <td class="py-3 px-4">Flexible options</td>
+                                            <td class="py-3 px-4">Contact office for details</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="alert alert-primary mt-4">
+                        <div class="d-flex">
+                            <i class="bi bi-info-circle-fill me-3 fs-4 text-primary"></i>
+                            <div>
+                                <h5 class="fw-bold mb-2">Important Notes</h5>
+                                <ul class="mb-0">
+                                    <li>Fees does not include textbooks, workbooks, and stationery</li>
+                                    <li>No hidden costs or additional material fees</li>
+                                    <li>Annual school uniform is additional (approx. R800-R1200)</li>
+                                    <li>Bank details available upon registration</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Admission Process -->
+    <section id="process" class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-5 fw-bold mb-3">Admission Process</h2>
+                <p class="lead text-muted col-lg-8 mx-auto">
+                    Simple steps to join our academic family
+                </p>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-md-3 col-6">
+                    <div class="text-center">
+                        <div class="rounded-circle bg-gradient d-flex align-items-center justify-content-center mx-auto mb-3" 
+                             style="width: 80px; height: 80px;">
+                            <span class="text-white fs-3 fw-bold">1</span>
+                        </div>
+                        <h5 class="fw-bold mb-2">Inquiry</h5>
+                        <p class="text-muted small">Contact us or visit the school</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="text-center">
+                        <div class="rounded-circle bg-gradient d-flex align-items-center justify-content-center mx-auto mb-3" 
+                             style="width: 80px; height: 80px;">
+                            <span class="text-white fs-3 fw-bold">2</span>
+                        </div>
+                        <h5 class="fw-bold mb-2">Application</h5>
+                        <p class="text-muted small">Submit completed application form</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="text-center">
+                        <div class="rounded-circle bg-gradient d-flex align-items-center justify-content-center mx-auto mb-3" 
+                             style="width: 80px; height: 80px;">
+                            <span class="text-white fs-3 fw-bold">3</span>
+                        </div>
+                        <h5 class="fw-bold mb-2">Assessment</h5>
+                        <p class="text-muted small">Student assessment & parent interview</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="text-center">
+                        <div class="rounded-circle bg-gradient d-flex align-items-center justify-content-center mx-auto mb-3" 
+                             style="width: 80px; height: 80px;">
+                            <span class="text-white fs-3 fw-bold">4</span>
+                        </div>
+                        <h5 class="fw-bold mb-2">Enrollment</h5>
+                        <p class="text-muted small">Pay fees & complete registration</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Requirements -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-5 fw-bold mb-3">Admission Requirements</h2>
+                <p class="lead text-muted col-lg-8 mx-auto">
+                    Documents needed for application
+                </p>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="card h-100 border-0 shadow-soft">
+                        <div class="card-body p-4">
+                            <div class="icon-circle bg-gradient mb-3">
+                                <i class="bi bi-person-circle"></i>
+                            </div>
+                            <h5 class="fw-bold mb-3">Primary School (Grade R-7)</h5>
+                            <ul class="list-unstyled text-muted">
+                                <li class="mb-2">
+                                    <i class="bi bi-check-circle text-success me-2"></i>
+                                    Certified copy of birth certificate
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check-circle text-success me-2"></i>
+                                    Immunization card (copy) for Grade R
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check-circle text-success me-2"></i>
+                                    2 recent passport photos
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check-circle text-success me-2"></i>
+                                    Latest school report (certified copy for Grade 1-7)
+                                </li>
+                                <li>
+                                    <i class="bi bi-check-circle text-success me-2"></i>
+                                    Parent/guardian ID copy
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="card h-100 border-0 shadow-soft">
+                        <div class="card-body p-4">
+                            <div class="icon-circle bg-gradient mb-3">
+                                <i class="bi bi-people"></i>
+                            </div>
+                            <h5 class="fw-bold mb-3">High School (Grade 8-12)</h5>
+                            <ul class="list-unstyled text-muted">
+                                <li class="mb-2">
+                                    <i class="bi bi-check-circle text-success me-2"></i>
+                                    Certified copy of birth certificate
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check-circle text-success me-2"></i>
+                                    Latest school report (certified copy)
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check-circle text-success me-2"></i>
+                                    2 recent passport photos
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check-circle text-success me-2"></i>
+                                    Transfer card from previous school
+                                </li>
+                                <li>
+                                    <i class="bi bi-check-circle text-success me-2"></i>
+                                    Parent/guardian ID copy
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Application Form -->
+    <section id="apply" class="py-5 bg-gradient text-white">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5 mb-5 mb-lg-0">
+                    <h2 class="display-5 fw-bold mb-3">Ready to Apply?</h2>
+                    <p class="lead mb-4">
+                        Start your application today. Our admissions team is ready to guide you 
+                        through the process and answer any questions you may have.
+                    </p>
+                    <div class="mb-4">
+                        <div class="d-flex align-items-center mb-3">
+                            <i class="bi bi-calendar-check me-3 fs-4"></i>
+                            <div>
+                                <h5 class="fw-bold mb-1">Open Admissions</h5>
+                                <p class="mb-0">Applications accepted throughout the year</p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center mb-3">
+                            <i class="bi bi-telephone me-3 fs-4"></i>
+                            <div>
+                                <h5 class="fw-bold mb-1">Direct Contact</h5>
+                                <p class="mb-0">Call: 078 602 2279 / 071 216 5560</p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <i class="bi bi-clock me-3 fs-4"></i>
+                            <div>
+                                <h5 class="fw-bold mb-1">Office Hours</h5>
+                                <p class="mb-0">Monday - Friday: 7:30 AM - 4:00 PM</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-7">
+                    <div class="bg-white rounded-xl p-4">
+                        <h3 class="fw-bold mb-4 text-dark">Application Form</h3>
+                        <form id="admissionForm">
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <input type="text" class="form-control" placeholder="Child's First Name" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="text" class="form-control" placeholder="Child's Last Name" required>
+                                </div>
+                                <div class="col-12">
+                                    <input type="date" class="form-control" placeholder="Date of Birth" required>
+                                </div>
+                                <div class="col-12">
+                                    <select class="form-select" required>
+                                        <option value="">Select Grade Applying For</option>
+                                        <optgroup label="Primary School">
+                                            <option>Grade R</option>
+                                            <option>Grade 1</option>
+                                            <option>Grade 2</option>
+                                            <option>Grade 3</option>
+                                            <option>Grade 4</option>
+                                            <option>Grade 5</option>
+                                            <option>Grade 6</option>
+                                            <option>Grade 7</option>
+                                        </optgroup>
+                                        <optgroup label="High School">
+                                            <option>Grade 8</option>
+                                            <option>Grade 9</option>
+                                            <option>Grade 10</option>
+                                            <option>Grade 11</option>
+                                            <option>Grade 12</option>
+                                        </optgroup>
+                                    </select>
+                                </div>
+                                <div class="col-12">
+                                    <input type="text" class="form-control" placeholder="Parent/Guardian Name" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="tel" class="form-control" placeholder="Phone Number" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="email" class="form-control" placeholder="Email Address" required>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="scheduleTour">
+                                        <label class="form-check-label text-dark" for="scheduleTour">
+                                            I would like to schedule a school tour
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <button type="submit" class="btn btn-accent w-100 py-3">
+                                        <i class="bi bi-send me-2"></i> Submit Application
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-5 fw-bold mb-3">Frequently Asked Questions</h2>
+                <p class="lead text-muted col-lg-8 mx-auto">
+                    Common questions about admissions
+                </p>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="accordion" id="faqAccordion">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                                    What are the school hours?
+                                </button>
+                            </h2>
+                            <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    School starts at 7:30 AM and ends at 2:00 PM. After-care facilities 
+                                    are available until 5:00 PM for working parents (additional fee applies).
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                                    Are there any sibling discounts?
+                                </button>
+                            </h2>
+                            <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Yes, we offer a 10% discount on tuition fees for the second child 
+                                    and subsequent children from the same family.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                                    What payment methods are accepted?
+                                </button>
+                            </h2>
+                            <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    We accept cash, bank transfers, and debit orders. Monthly payment 
+                                    plans can be arranged upon request. Bank details will be provided 
+                                    upon registration.
+                                </div>
+                            </div>
+                        </div>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+     <!-- Chatbot Widget -->
+<div class="chatbot-widget">
+    <!-- Chatbot Button -->
+    <button class="chatbot-button" id="chatbotToggle">
+        <i class="bi bi-chat-dots" id="chatbotIcon"></i>
+    </button>
+    
+    <!-- Chat Window -->
+    <div class="chatbot-window" id="chatbotWindow">
+        <!-- Chat Header -->
+        <div class="chat-header">
+            <div class="d-flex align-items-center">
+                <div class="chatbot-avatar">
+                    <i class="bi bi-robot"></i>
+                </div>
+                <div class="ms-3">
+                    <h6 class="mb-0 fw-bold">Celeste Academy Assistant</h6>
+                    <small class="text-muted">Typically replies in seconds</small>
+                </div>
+            </div>
+            <button class="btn-close" id="closeChatbot"></button>
+        </div>
+        
+        <!-- Chat Messages Container -->
+        <div class="chat-messages" id="chatMessages">
+            <!-- Initial greeting message -->
+            <div class="message bot-message">
+                <div class="message-content">
+                    <strong>Hi there! 👋</strong><br>
+                    I'm your Celeste Academy assistant. How can I help you today?
+                </div>
+                <div class="message-time">Just now</div>
+            </div>
+            
+            <!-- Quick options -->
+            <div class="quick-options">
+                <button class="quick-option-btn" data-question="Admission process">
+                    Admission Process
+                </button>
+                <button class="quick-option-btn" data-question="Fee structure">
+                    Fee Structure
+                </button>
+                <button class="quick-option-btn" data-question="School hours">
+                    School Hours
+                </button>
+                <button class="quick-option-btn" data-question="Contact information">
+                    Contact Info
+                </button>
+            </div>
+        </div>
+        
+        <!-- Chat Input -->
+        <div class="chat-input">
+            <input type="text" 
+                   id="chatInput" 
+                   placeholder="Type your message here..."
+                   autocomplete="off">
+            <button id="sendMessage" class="send-btn">
+                <i class="bi bi-send"></i>
+            </button>
+        </div>
+    </div>
+</div>
+
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <div class="d-flex align-items-center mb-3">
+                        <div class="logo-circle me-3">
+                            <img src="assets/images/logo.png" alt="Celeste Academy Logo" class="logo-img">
+                        </div>
+                        <div>
+                            <h5 class="fw-bold mb-0">Celeste Academy</h5>
+                            <small class="text-accent">Of Excellence</small>
+                        </div>
+                    </div>
+                    <p class="text-white-50 mb-3">
+                        Providing innovative and engaging education from Grade RR to Grade 12 
+                        in a secure and nurturing environment.
+                    </p>
+                    
+                </div>
+
+                <div class="col-lg-2 col-md-4">
+                    <h5 class="fw-bold mb-3">Quick Links</h5>
+                    <ul class="list-unstyled footer-links">
+                        <li class="mb-2"><a href="index.html">Home</a></li>
+                        <li class="mb-2"><a href="about.html">About Us</a></li>
+                        <li class="mb-2"><a href="programs.html">Programs</a></li>
+                        <li class="mb-2"><a href="admissions.html">Admissions</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-4">
+                    <h5 class="fw-bold mb-3">Programs</h5>
+                    <ul class="list-unstyled footer-links">
+                        <li class="mb-2"><a href="programs.html#primary">Primary School</a></li>
+                        <li class="mb-2"><a href="programs.html#highschool">High School</a></li>
+                        <li><a href="programs.html#enrichment">Enrichment Programs</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-4">
+                    <h5 class="fw-bold mb-3">Contact Info</h5>
+                    <ul class="list-unstyled contact-info">
+                        <li class="mb-3">
+                            <i class="bi bi-geo-alt"></i>
+                            <div>
+                                <strong>Address:</strong><br>
+                                Celeste Academy of Excellence,<br>
+                                D11 Road, Roerfontein,
+                                <br> Ga-Mamaila
+                            </div>
+                        </li>
+                        <li class="mb-3">
+                            <i class="bi bi-telephone"></i>
+                            <div>
+                                <strong>Phone:</strong><br>
+                                078 602 2279<br>
+                                071 216 5560
+                            </div>
+                        </li>
+                        <li>
+                            <i class="bi bi-envelope"></i>
+                            <div>
+                                <strong>Email:</strong><br>
+                                celesteacademy17@gmail.com
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <hr class="my-4 text-white-50">
+
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <p class="text-white-50 mb-0">
+                        &copy; <span id="currentYear"></span> Celeste Academy of Excellence. All rights reserved.
+                    </p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <div class="d-flex justify-content-md-end gap-3">
+                        <a href="#" class="text-white-50 hover-accent">
+                            <i class="bi bi-facebook"></i>
+                        </a>
+                        <a href="#" class="text-white-50 hover-accent">
+                            <i class="bi bi-whatsapp"></i>
+                        </a>
+                        <a href="#" class="text-white-50 hover-accent">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+                        <a href="mailto:celesteacademy17@gmail.com" class="text-white-50 hover-accent">
+                            <i class="bi bi-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
