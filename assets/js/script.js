@@ -392,16 +392,16 @@ document.addEventListener('DOMContentLoaded', function() {
         // Admissions questions
         if (message.includes('admission') || message.includes('apply') || message.includes('enroll')) {
             return `The admission process at Celeste Academy is simple:\n\n` +
-                   `📝 **Application Steps:**\n` +
+                   `📝 Application Steps:\n` +
                    `1. Contact us or visit the school\n` +
                    `2. Submit completed application form\n` +
                    `3. Student assessment & parent interview\n` +
                    `4. Pay fees & complete registration\n\n` +
-                   `💰 **Fees:**\n` +
+                   `💰 Fees:\n` +
                    `• Registration: R750 (once-off)\n` +
                    `• Monthly Tuition: R1,200\n` +
                    `• Sibling discount: 10% from second child\n\n` +
-                   `📋 **Required Documents:**\n` +
+                   `📋 Required Documents:\n` +
                    `• Certified birth certificate\n` +
                    `• Latest school report\n` +
                    `• 2 passport photos\n` +
@@ -413,20 +413,20 @@ document.addEventListener('DOMContentLoaded', function() {
         else if (message.includes('fee') || message.includes('price') || message.includes('cost') || 
                  message.includes('payment') || message.includes('tuition')) {
             return `Here's our fee structure for 2024:\n\n` +
-                   `📊 **Fee Breakdown:**\n` +
-                   `• **Registration Fee:** R750 (once-off, non-refundable)\n` +
-                   `• **Monthly Tuition:** R1,200 per month\n` +
-                   `• **Sibling Discount:** 10% off tuition for second child onward\n\n` +
-                   `💳 **Payment Terms:**\n` +
+                   `📊 Fee Breakdown:\n` +
+                   `• Registration Fee: R750 (once-off, non-refundable)\n` +
+                   `• Monthly Tuition: R1,200 per month\n` +
+                   `• Sibling Discount: 10% off tuition for second child onward\n\n` +
+                   `💳 Payment Terms:\n` +
                    `• Registration fee payable upon application\n` +
                    `• Monthly tuition paid in advance\n` +
                    `• Flexible payment plans available\n\n` +
-                   `📝 **What's included:**\n` +
+                   `📝 What's included:\n` +
                    `• All textbooks and workbooks\n` +
                    `• Stationery and learning materials\n` +
                    `• Access to school facilities\n` +
                    `• No hidden costs\n\n` +
-                   `🎯 **Additional Costs:**\n` +
+                   `🎯 Additional Costs:\n` +
                    `• School uniform: R800-R1200 (annual)\n` +
                    `• After-care: Additional fee (optional)\n` +
                    `• Transport: Separate fee based on distance`;
@@ -434,17 +434,17 @@ document.addEventListener('DOMContentLoaded', function() {
         
         // School hours questions
         else if (message.includes('hour') || message.includes('time') || message.includes('schedule')) {
-            return `⏰ **School Hours:**\n\n` +
-                   `**Monday - Thursday:**\n` +
+            return `⏰ School Hours:\n\n` +
+                   `Monday - Thursday:\n` +
                    `• School starts: 7:30 AM\n` +
                    `• School ends: 2:00 PM\n\n` +
-                   `**Friday:**\n` +
+                   `Friday:\n` +
                    `• School starts: 7:30 AM\n` +
                    `• School ends: 2:00 PM\n\n` +
-                   `**After-Care Service:**\n` +
+                   `After-Care Service:\n` +
                    `• Available until 5:00 PM\n` +
                    `• Additional fee applies\n\n` +
-                   `**Office Hours:**\n` +
+                   `Office Hours:\n` +
                    `• Monday - Friday: 7:30 AM - 4:00 PM\n` +
                    `• Saturday: By appointment only`;
         }
@@ -452,70 +452,70 @@ document.addEventListener('DOMContentLoaded', function() {
         // Contact questions
         else if (message.includes('contact') || message.includes('call') || message.includes('email') || 
                  message.includes('phone') || message.includes('address')) {
-            return `📞 **Contact Information:**\n\n` +
-                   `**Phone Numbers:**\n` +
+            return `📞 Contact Information:\n\n` +
+                   `Phone Numbers:\n` +
                    `• Main Office: 078 602 2279\n` +
                    `• Alternative: 071 216 5560\n\n` +
-                   `**Email Address:**\n` +
-                   `• celesteacademy17@gmail.com\n\n` +
-                   `**School Address:**\n` +
-                   `Dikgale Polokwane Branch\n` +
-                   `Madiga next to Lunds Farm\n` +
-                   `Solomondale Road\n` +
-                   `Polokwane, 0700\n\n` +
-                   `📍 **Office Hours:**\n` +
+                   `Email Address:\n` +
+                   `celesteacademy17@gmail.com\n\n` +
+                   `School Address:\n` +
+                   `Celeste Academy of Excellence Roerfontein branch\n` +
+                   `D11 Road\n` +
+                   `Roerfontein \n` +
+                   `Ga-Mamaila\n\n` +
+                   `📍Office Hours:\n` +
                    `Monday - Friday: 7:30 AM - 4:00 PM`;
         }
         
         // Programs questions
         else if (message.includes('program') || message.includes('grade') || message.includes('class') || 
                  message.includes('curriculum')) {
-            return `📚 **Academic Programs:**\n\n` +
-                   `**Primary School (Grade R-7):**\n` +
-                   `• Foundation Phase (Grade R-3)\n` +
-                   `• Intermediate Phase (Grade 4-6)\n` +
-                   `• Senior Phase (Grade 7)\n\n` +
-                   `**High School (Grade 8-12):**\n` +
-                   `• Senior Phase (Grade 8-9)\n` +
-                   `• FET Phase (Grade 10-12)\n\n` +
-                   `🌟 **Enrichment Programs:**\n` +
-                   `• Sports & Athletics\n` +
-                   `• Arts & Culture\n` +
-                   `• Music & Drama\n\n` +
+            return `📚 Academic Programs:\n\n` +
+                   `Primary School (Grade RR-7):\n` +
+                   ` Foundation Phase (Grade RR-3)\n` +
+                   ` Intermediate Phase (Grade 4-6)\n` +
+                   `Senior Phase (Grade 7)\n\n` +
+                   `High School (Grade 8-12):\n` +
+                   `Senior Phase (Grade 8-9)\n` +
+                   `FET Phase (Grade 10-12)\n\n` +
+                   `🌟 Enrichment Programs:\n` +
+                   `Sports & Athletics\n` +
+                   `Arts & Culture\n` +
+                   `Music & Drama\n\n` +
                    `What specific program are you interested in?`;
         }
         
         // School information
         else if (message.includes('school') || message.includes('academy') || message.includes('celeste')) {
-            return `🏫 **About Celeste Academy:**\n\n` +
-                   `• Registered EMIS: 99550231\n` +
-                   `• Grade R to Grade 12\n` +
-                   `• Modern teaching methods\n` +
-                   `• Secure campus environment\n` +
-                   `• Skilled educators\n` +
-                   `• Small class sizes\n\n` +
-                   `🎯 **Our Mission:**\n` +
+            return `🏫 About Celeste Academy:\n\n` +
+                   `Registered EMIS: 99550231\n` +
+                   `Grade R to Grade 12\n` +
+                   `Modern teaching methods\n` +
+                   `Secure campus environment\n` +
+                   `Skilled educators\n` +
+                   `Small class sizes\n\n` +
+                   `🎯 Our Mission:\n` +
                    `To provide innovative and engaging education that empowers students to become confident learners and responsible individuals.\n\n` +
                    `Would you like to know more about our facilities or teaching approach?`;
         }
         
         // Transport questions
         else if (message.includes('transport') || message.includes('bus') || message.includes('pickup')) {
-            return `🚌 **School Transport:**\n\n` +
-                   `• Available for most areas in and around Polokwane\n` +
-                   `• Reliable and safe service\n` +
-                   `• Separate transport fees\n` +
-                   `• Fees vary based on distance\n\n` +
+            return `🚌 School Transport:\n\n` +
+                   ` Available for most areas in and around Polokwane\n` +
+                   `Reliable and safe service\n` +
+                   `Separate transport fees\n` +
+                   `Fees vary based on distance\n\n` +
                    `For specific route information and pricing, please contact our office at 078 602 2279.`;
         }
         
         // Uniform questions
         else if (message.includes('uniform') || message.includes('dress')) {
-            return `👔 **School Uniform:**\n\n` +
-                   `• Annual uniform cost: R800 - R1200\n` +
-                   `• Includes all required items\n` +
-                   `• Available through school suppliers\n` +
-                   `• Specific uniform requirements for each grade\n\n` +
+            return `👔 School Uniform:\n\n` +
+                   `Annual uniform cost: R800 - R1200\n` +
+                   ` Includes all required items\n` +
+                   `Available through school suppliers\n` +
+                   `Specific uniform requirements for each grade\n\n` +
                    `For detailed uniform lists and suppliers, please visit our office.`;
         }
         
@@ -532,12 +532,12 @@ document.addEventListener('DOMContentLoaded', function() {
         // Default response
         else {
             return `I'm here to help you with information about Celeste Academy! Here are some topics I can assist with:\n\n` +
-                   `🎓 **Admissions** - Application process, requirements, fees\n` +
-                   `💰 **Fee Structure** - Tuition, registration, payment plans\n` +
-                   `⏰ **School Hours** - Daily schedule, after-care\n` +
-                   `📚 **Programs** - Grade R-12 curriculum\n` +
-                   `📞 **Contact Info** - Phone, email, address\n` +
-                   `🚌 **Transport** - School bus services\n\n` +
+                   `🎓 Admissions- Application process, requirements, fees\n` +
+                   `💰 Fee Structure- Tuition, registration, payment plans\n` +
+                   `⏰ School Hours - Daily schedule, after-care\n` +
+                   `📚 Programs- Grade R-12 curriculum\n` +
+                   `📞 Contact Info - Phone, email, address\n` +
+                   `🚌 Transport- School bus services\n\n` +
                    `What specific information are you looking for?`;
         }
     }
